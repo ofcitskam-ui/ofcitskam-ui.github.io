@@ -1,0 +1,146 @@
+
+/* GENERAL */
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#eef6ff;
+  display:flex;
+}
+
+/* SIDEBAR (NEW DIFFERENT STYLE) */
+header{
+  width:220px;
+  height:100vh;
+  background:#1e90ff;
+  color:white;
+  padding:20px;
+  box-sizing:border-box;
+  position:fixed;
+}
+
+/* TITLE */
+header h1{
+  font-size:22px;
+  margin-bottom:30px;
+}
+
+/* NAVIGATION (VERTICAL NOW) */
+nav ul{
+  list-style:none;
+  padding:0;
+}
+
+nav ul li{
+  margin:15px 0;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+  display:block;
+  padding:8px;
+  border-radius:5px;
+}
+
+nav a:hover{
+  background:#0b63c9;
+}
+
+/* MAIN CONTENT (SHIFTED RIGHT) */
+main{
+  margin-left:240px;
+  padding:30px;
+  width:100%;
+}
+
+/* SECTIONS (DIFFERENT LOOK) */
+section{
+  background:white;
+  padding:25px;
+  margin-bottom:25px;
+  border-left:6px solid #1e90ff;
+}
+
+/* IMAGES */
+.responsive-img{
+  width:100%;
+  max-width:500px;
+  display:block;
+  margin-top:15px;
+}
+
+/* OVAL IMAGE */
+.oval-img{
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  object-fit:cover;
+  display:block;
+  margin:20px 0;
+}
+
+/* SERVICES (STACKED STYLE — NOT GRID) */
+.service-card{
+  margin-bottom:20px;
+  padding:15px;
+  background:#f7fbff;
+  border:1px solid #ddd;
+}
+
+.service-img{
+  width:100%;
+  max-width:300px;
+  display:block;
+  margin-bottom:10px;
+}
+
+/* TABLE */
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:20px;
+}
+
+th, td{
+  border:1px solid #aaa;
+  padding:10px;
+}
+
+th{
+  background:#1e90ff;
+  color:white;
+}
+
+/* FORM */
+form{
+  max-width:500px;
+}
+
+input, textarea{
+  width:100%;
+  padding:10px;
+  margin-top:5px;
+  border:1px solid #ccc;
+}
+
+input[type="submit"]{
+  background:#1e90ff;
+  color:white;
+  border:none;
+  margin-top:10px;
+  cursor:pointer;
+}
+
+/* FOOTER (DIFFERENT POSITIONING) */
+footer{
+  position:fixed;
+  bottom:0;
+  left:240px; /* matches sidebar space */
+  width:calc(100% - 240px);
+  background:#1e90ff;
+  color:white;
+  text-align:center;
+  padding:10px;
+}
+}
